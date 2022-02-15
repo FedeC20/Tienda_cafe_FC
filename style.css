@@ -42,7 +42,14 @@ h1, h2, h3, h4, ul, a, p {
 .header-nav-li {
     padding: 10px;
     margin: 10px;
+    border-radius: 5%;
 }
+
+.header-nav-li:hover {
+    background-color: orange;
+    cursor:pointer;
+}
+
 
 li {
     list-style-type: none;
@@ -74,6 +81,11 @@ h1 {
     vertical-align: middle;
     padding-top: 75px ;
 }
+h1:hover {
+    transform: scale(1.5);
+}
+
+
 
 /* Fin Banner */
 
@@ -142,6 +154,10 @@ h3 {
     max-height: 200px;
 }
 
+.container-curso-2-imagen:hover {
+    transform: scale(1.5);
+}
+
 /* Fin Sección Curso 2 */
 
 /* Fin Sección Servicios */
@@ -163,24 +179,12 @@ h3 {
 
 .nosotros-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
-    }
+}
     
-.nosotros-container-titulo { 
-    grid-column: 1 / -1;  
-}
-
-.nosotros-container-texto { 
-    grid-column: 1 / -1; 
-}
-
-.nosotros-container-imagen { 
-    grid-column: 1 / -1; 
-}
-
 /* Fin Sección Nosotros */
 
 /* Inicio Sección Acceder */
@@ -271,6 +275,10 @@ h3 {
     .container-curso-2-texto {
         display: block;
         justify-content: left;
+    }
+    
+    .container-curso-2-imagen:hover {
+        transform: scale(1);
     }    
 
     /* Fin Servicios */
