@@ -77,26 +77,31 @@
         
         <!-- Tal como hablamos voy a colocar un formulario para esta pestaña -->
 
-        <section class="servicios-container contacto-display">
-            <h2 class="contacto-titulo">
+        <section class="container-lg servicios-container">
+            <h2>
                 Contacto:
             </h2>
-            <h3 class="contacto-nombre">
-                Nombre: 
-            </h3>
-            <h3 class="contacto-apellido">
-                Apellido: 
-            </h3>
-            <h3 class="contacto-mail">
-                Mail: 
-            </h3>
-            <h3 class="contacto-telefono">
-                Teléfono: 
-            </h3>
-            <h3 class="contacto-consulta">
-                Tu Consulta: 
-            </h3>
-        </section>
+
+            <div class="row contacto-gap">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" placeholder="Mail" aria-label="Mail">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <input type="tel" class="form-control" placeholder="Teléfono" aria-label="Teléfono">
+                </div>
+                <div class="col-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Tu Consulta:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end contacto-boton">
+                    <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+            </div>
         <!-- Fin Section Contactos-->
         
     </main>
