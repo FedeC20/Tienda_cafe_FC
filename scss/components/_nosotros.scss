@@ -1,0 +1,21 @@
+/* Inicio Sección Nosotros */
+
+.nosotros-container-titulo {
+	padding-top: 30px;
+}
+.nosotros-container-texto {
+	text-align: justify;
+}
+.nosotros-container-imagen {
+	width: 100%;
+	border-radius: 5%;
+}
+.nosotros-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 5px;
+}
+
+/* Fin Sección Nosotros */

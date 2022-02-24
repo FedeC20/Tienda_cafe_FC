@@ -10,8 +10,6 @@ h1, h2, h3, h4, ul, a, p {
 
 /* Header */
 
-/* Tal como hablamos, el nav bar del menú se va a hacer Responsive al transformarse en menú hamburguesa con Booststrap */
-
 .header-img-logo {
     border-radius: 100%;
     max-width: 25%;
@@ -166,10 +164,6 @@ h3 {
     
 /* Fin Sección Nosotros */
 
-/* Inicio Sección Acceder */
-
-/* Fin Sección Acceder */
-
 /* Inicio Sección Contacto */
 
 .contacto-gap {
@@ -214,10 +208,6 @@ h3 {
     }    
 
     /* Fin Servicios */
-
-    /* Inicio Acceder */
-
-    /* Fin Acceder */
 
     /* Inicio Contacto */
 

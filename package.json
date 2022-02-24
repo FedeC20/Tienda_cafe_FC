@@ -1,0 +1,19 @@
+{
+  "name": "tienda_cafe_fc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeC20/Tienda_cafe_FC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeC20/Tienda_cafe_FC/issues"
+  },
+  "homepage": "https://github.com/FedeC20/Tienda_cafe_FC#readme"
+}

@@ -1,0 +1,22 @@
+/* Banner */
+
+.banner-container {
+	background-image: url(../img/banner-cafecito.jpg);
+	background-repeat: none;
+	background-size: cover;
+	height: 200px;
+	max-width: 100%;
+	text-align: center;
+}
+h1 {
+	font-size: 700;
+	color: rgb(235, 229, 229);
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 75px;
+	&:hover {
+		transform: scale(1.5);
+	}
+}
+
+/* Fin Banner */

@@ -1,0 +1,46 @@
+/* Mobile y Tablet style */
+
+@media screen and (max-width:980px) {
+	.header-container {
+		max-width: 100%;
+	}
+	.servicios-container {
+		max-width: 99%;
+		border: none;
+		border-radius: none;
+		margin: 5px;
+		padding: 3px;
+	}
+	
+	/* Inicio Servicios */
+
+	.container-curso-2-texto {
+		display: block;
+		justify-content: left;
+	}
+	.container-curso-2-imagen {
+		&:hover {
+			transform: scale(1);
+		}
+	}
+
+	/* Fin Servicios */
+	
+	/* Inicio Contacto */
+
+	.contacto-gap {
+		grid-template-rows: repeat(5, 1fr);
+	}
+	
+	/* Fin Acceder */
+	
+	/* Inicio Footer */
+
+	.footer-text {
+		padding: 10px 20px;
+	}
+	
+	/* Fin Footer */
+}
+
+/* Fin Mobile y Tablet style */
