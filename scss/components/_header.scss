@@ -1,5 +1,8 @@
 /* Header */
 
+@import '../base/map';
+@import '../base/lista';
+
 .header-img-logo {
 	border-radius: 100%;
 	max-width: 25%;
@@ -10,17 +13,32 @@
 	margin: 10px;
 	border-radius: 5%;
 	&:hover {
-		background-color: orange;
+		background-color: nth($color, 3);
 		cursor: pointer;
 	}
 }
-li {
-	list-style-type: none;
+
+header {
+	nav {
+		a {
+			text-decoration: map-get($header, decoration);
+			color: nth($color, 1);
+			font-weight: 700;
+		}
+		div {
+			ul {
+				li {
+					list-style-type: map-get($header, list);
+					a {
+						text-decoration: map-get($header, decoration);
+						color: nth($color, 1);
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
 }
-a {
-	text-decoration: none;
-	color: white;
-	font-weight: 700;
-}
+
 
 /* Fin Header */

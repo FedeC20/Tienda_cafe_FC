@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* Header */
+/* Map */
+/* Listas */
 .header-img-logo {
   border-radius: 100%;
   max-width: 25%;
@@ -16,11 +18,15 @@
   cursor: pointer;
 }
 
-li {
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+header nav div ul li {
   list-style-type: none;
 }
-
-a {
+header nav div ul li a {
   text-decoration: none;
   color: white;
   font-weight: 700;
