@@ -1,10 +1,11 @@
 /* Inicio Sección Servicios */
 
+@import 'base/extends';
+
 .servicios-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: #000000 solid;
-	border-radius: 5%;
+	@extend %mensaje;
 	padding: 10px;
 }
 .servicios-grid {
