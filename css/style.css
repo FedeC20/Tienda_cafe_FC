@@ -68,6 +68,8 @@ header nav div ul li a {
 
 /* Fin Header */
 /* Banner */
+/* Maxins */
+/* Fin Maxins */
 .banner-container {
   background-image: url(../img/banner-cafecito.jpg);
   background-repeat: none;
@@ -85,16 +87,24 @@ h1 {
   padding-top: 75px;
 }
 h1:hover {
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
   transform: scale(1.5);
 }
 
 /* Fin Banner */
 /* Inicio Sección Servicios */
+/* Extends */
+.servicios-container {
+  border: #000000 solid;
+  border-radius: 5%;
+}
+
+/* Fin Extends */
 .servicios-container {
   margin-top: 10px;
   margin-bottom: 10px;
-  border: #000000 solid;
-  border-radius: 5%;
   padding: 10px;
 }
 

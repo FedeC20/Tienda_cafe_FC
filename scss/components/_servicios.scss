@@ -1,11 +1,11 @@
 /* Inicio Sección Servicios */
 
-@import 'base/extends';
+@import '../base/extends';
 
 .servicios-container {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	@extend %mensaje;
+	@extend %boder-content;
 	padding: 10px;
 }
 .servicios-grid {
