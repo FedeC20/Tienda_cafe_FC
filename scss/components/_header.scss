@@ -3,20 +3,7 @@
 @import '../base/map';
 @import '../base/lista';
 
-.header-img-logo {
-	border-radius: 100%;
-	max-width: 25%;
-	padding: 5px 0px 0px 5px;
-}
-.header-nav-li {
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5%;
-	&:hover {
-		background-color: nth($color, 3);
-		cursor: pointer;
-	}
-}
+
 
 header {
 	nav {
@@ -24,11 +11,30 @@ header {
 			text-decoration: map-get($header, decoration);
 			color: nth($color, 1);
 			font-weight: 700;
+
+			.header-img-logo {
+				border-radius: 100%;
+				max-width: 25%;
+				padding: 5px 0px 0px 5px;
+			}
+
 		}
+
 		div {
 			ul {
 				li {
 					list-style-type: map-get($header, list);
+
+					.header-nav-li {
+						padding: 10px;
+						margin: 10px;
+						border-radius: 5%;
+						&:hover {
+							background-color: nth($color, 3);
+							cursor: pointer;
+						}
+					}
+
 					a {
 						text-decoration: map-get($header, decoration);
 						color: nth($color, 1);

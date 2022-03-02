@@ -1,11 +1,12 @@
 /* Inicio Sección Contacto */
 
 .contacto-gap {
-	grid-column-gap: 0px;
-	grid-row-gap: 5px;
-}
-.contacto-boton {
-	padding: 5px;
+	grid-column-gap: 5px;
+	grid-row-gap: 10px;
+
+	.contacto-boton {
+		padding: 5px;
+	}
 }
 
 /* Fin Sección Contacto */
