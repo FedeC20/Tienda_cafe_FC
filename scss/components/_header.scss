@@ -25,14 +25,14 @@ header {
 				li {
 					list-style-type: map-get($header, list);
 
-					.header-nav-li {
-						padding: 10px;
-						margin: 10px;
-						border-radius: 5%;
-						&:hover {
-							background-color: nth($color, 3);
-							cursor: pointer;
-						}
+					
+					padding: 10px;
+					margin: 10px;
+					border-radius: 5%;
+					&:hover {
+						background-color: nth($color, 3);
+						cursor: pointer;
+					
 					}
 
 					a {

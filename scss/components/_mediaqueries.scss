@@ -11,16 +11,37 @@
 		margin: 5px;
 		padding: 3px;
 	}
+	.carousel_container {
+		.container {
+			max-width: 99%;
+			border: none;
+			border-radius: none;
+			margin: 5px;
+			padding: 3px;
+			.carousel-inner {
+				.carousel-item {					
+					img {
+						max-height: 250px;;   
+					}
+				}
+			}	
+		}
+	}
 	
 	/* Inicio Servicios */
 
-	.container-curso-2-texto {
-		display: block;
-		justify-content: left;
-	}
-	.container-curso-2-imagen {
-		&:hover {
-			transform: scale(1);
+	.servicios-container {
+		.container-curso-2 {
+			.container-curso-2-texto {
+				display: block;
+				justify-content: left;
+		
+				.container-curso-2-imagen {
+					&:hover {
+						transform: scale(1);
+					}
+				}
+			}
 		}
 	}
 

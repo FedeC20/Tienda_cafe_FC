@@ -48,13 +48,11 @@ header nav a .header-img-logo {
 }
 header nav div ul li {
   list-style-type: none;
-}
-header nav div ul li .header-nav-li {
   padding: 10px;
   margin: 10px;
   border-radius: 5%;
 }
-header nav div ul li .header-nav-li:hover {
+header nav div ul li:hover {
   background-color: orange;
   cursor: pointer;
 }
@@ -91,6 +89,13 @@ header nav div ul li a {
 }
 
 /* Fin Banner */
+.carousel-inner {
+  padding: 10px;
+}
+.carousel-inner .carousel-item img {
+  height: 600px;
+}
+
 /* Inicio Sección Servicios */
 /* Extends */
 .servicios-container {
@@ -187,13 +192,23 @@ header nav div ul li a {
     padding: 3px;
   }
 
+  .carousel_container .container {
+    max-width: 99%;
+    border: none;
+    border-radius: none;
+    margin: 5px;
+    padding: 3px;
+  }
+  .carousel_container .container .carousel-inner .carousel-item img {
+    max-height: 250px;
+  }
+
   /* Inicio Servicios */
-  .container-curso-2-texto {
+  .servicios-container .container-curso-2 .container-curso-2-texto {
     display: block;
     justify-content: left;
   }
-
-  .container-curso-2-imagen:hover {
+  .servicios-container .container-curso-2 .container-curso-2-texto .container-curso-2-imagen:hover {
     transform: scale(1);
   }
 
