@@ -112,7 +112,7 @@ header nav div ul li a {
 .servicios-container .servicios-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 1fr 0.5fr;
+  grid-template-rows: 0.1fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   /* Inicio Sección Curso 1 */
@@ -129,16 +129,29 @@ header nav div ul li a {
   padding-bottom: 10px;
   border-bottom: 2px black solid;
 }
+.servicios-container .servicios-grid .container-curso-1 .container-text-margin {
+  margin-bottom: 1rem;
+}
+.servicios-container .servicios-grid .container-curso-1 .container-curso-padding {
+  padding: 20px 0px;
+}
+.servicios-container .servicios-grid .container-curso-1 .container-curso-padding .container-text-margin {
+  margin-bottom: 1rem;
+}
 .servicios-container .servicios-grid .container-curso-2 {
   padding-bottom: 10px;
 }
 .servicios-container .servicios-grid .container-curso-2 h3 {
   margin: 10px 0;
+  padding: 20px 0px;
 }
 .servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto {
   display: flex;
   padding-left: 10px;
   text-align: justify;
+}
+.servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto .container-text-margin {
+  margin-bottom: 1rem;
 }
 .servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto .container-curso-2-imagen {
   max-height: 200px;
@@ -151,13 +164,14 @@ header nav div ul li a {
 /* Inicio Sección Nosotros */
 .nosotros-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 5px;
 }
 .nosotros-grid .nosotros-container-titulo {
   padding-top: 30px;
+}
+.nosotros-grid .nosotros-container-titulo2 {
+  padding-top: 5px;
 }
 .nosotros-grid .nosotros-container-texto {
   text-align: justify;
@@ -204,11 +218,14 @@ header nav div ul li a {
   }
 
   /* Inicio Servicios */
-  .servicios-container .container-curso-2 .container-curso-2-texto {
+  .servicios-container .servicios-grid {
+    display: block;
+  }
+  .servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto {
     display: block;
     justify-content: left;
   }
-  .servicios-container .container-curso-2 .container-curso-2-texto .container-curso-2-imagen:hover {
+  .servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto .container-curso-2-imagen:hover {
     transform: scale(1);
   }
 

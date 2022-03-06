@@ -31,14 +31,17 @@
 	/* Inicio Servicios */
 
 	.servicios-container {
-		.container-curso-2 {
-			.container-curso-2-texto {
-				display: block;
-				justify-content: left;
-		
-				.container-curso-2-imagen {
-					&:hover {
-						transform: scale(1);
+		.servicios-grid {
+			display: block;
+			.container-curso-2 {
+				.container-curso-2-texto {
+					display: block;
+					justify-content: left;
+			
+					.container-curso-2-imagen {
+						&:hover {
+							transform: scale(1);
+						}
 					}
 				}
 			}
@@ -63,5 +66,4 @@
 	
 	/* Fin Footer */
 }
-
 /* Fin Mobile y Tablet style */
