@@ -159,6 +159,9 @@ header nav div ul li a {
 .servicios-container .servicios-grid .container-curso-2 .container-curso-2-texto .container-curso-2-imagen:hover {
   transform: scale(1.5);
 }
+.servicios-container .servicios-grid .container-curso-2 .container-curso-2-boton {
+  padding-bottom: 10px;
+}
 
 /* Fin Sección Servicios */
 /* Inicio Sección Nosotros */
