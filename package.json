@@ -1,7 +1,7 @@
 {
   "name": "tienda_cafe_fc",
   "version": "1.0.0",
-  "description": "Fábrica de Café, un lugar para aprender y disfrutar del café.",
+  "description": "Fábrica de Café, un lugar para aprender, comprar y disfrutar del café.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
