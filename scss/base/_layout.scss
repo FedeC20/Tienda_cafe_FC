@@ -1,26 +1,15 @@
 /* Selector universal */
+
+@import 'variables';
+
 * {
 	margin: 0.1px;
 	padding: 0;
 }
-h1 {
-	font-family: 'Montserrat', sans-serif;
+h1, h2 , h3, h4, a, p {
+	font-family: $font_Montserrat;
 }
-h2 {
-	font-family: 'Montserrat', sans-serif;
-}
-h3 {
-	font-family: 'Montserrat', sans-serif;
-}
-h4 {
-	font-family: 'Montserrat', sans-serif;
-}
+
 ul {
-	font-family: 'Montserrat', sans-serif;
-}
-a {
-	font-family: 'Montserrat', sans-serif;
-}
-p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $font_Montserrat;
 }
