@@ -145,11 +145,6 @@ header nav div ul li a {
 
 /* Fin Sección Servicios */
 /* Inicio Sección Nosotros */
-.nosotros-grid {
-  display: grid;
-  grid-column-gap: 0px;
-  grid-row-gap: 5px;
-}
 .nosotros-grid .nosotros-container-titulo {
   padding-top: 30px;
 }
@@ -221,6 +216,7 @@ header nav div ul li a {
   /* Fin Acceder */
   /* Inicio Footer */
   .footer-text {
+    font-size: medium;
     padding: 10px 20px;
   }
 
